@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
     $units = "metric"; // Единицы измерения. metric или imperial
     $lang = "ru"; // язык
     $countDay = 2; // количество дней. Максимум 14 дней
-    $appID = "4f6c11e02571b5fdd1aa5d9a4e954e2f"; // Ваш APPID
+    $appID = "*****"; // Ваш APPID
     $url = "https://api.openweathermap.org/data/2.5/forecast?id=524901&q=$city&cnt=$countDay&lang=$lang&units=$units&appid=$appID";
     $data = @file_get_contents($url);
     if ($data) {
@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
         CURLOPT_CUSTOMREQUEST => "GET",
         CURLOPT_HTTPHEADER => [
             "x-rapidapi-host: weatherapi-com.p.rapidapi.com",
-            "x-rapidapi-key: 30ac675d71msh959175cc77fc049p10ac85jsn11d2b96a63c9"
+            "x-rapidapi-key: ****"
         ],
     ]);
 

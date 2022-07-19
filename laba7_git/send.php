@@ -21,7 +21,7 @@
 
     $mail->Port = 465;
     $mail->Username = 'testpop3lab@gmail.com';
-    $mail->Password = 'hardpass123';
+    $mail->Password = '****';
 
     // От кого
     $mail->SetFrom('testpop3lab@gmail.com');

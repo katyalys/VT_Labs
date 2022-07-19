@@ -16,7 +16,7 @@
     {
         private $servername = "localhost";
         private $username = "root";
-        private $password = "6880051braingames";
+        private $password = "***********";
         private $dbname = "laba5_task1";
 
         public $conn;
